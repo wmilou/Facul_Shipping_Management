@@ -9,7 +9,6 @@ public class ShippingjList{
 
     public int get_menor_valor(double[] value){
 
-        System.out.println((int)ShippingList(value));
-        return (int) ShippingList(value);
+		return (int) ShippingList(value);
     }
 }

@@ -23,10 +23,8 @@ public class Shipping_Management {
 					CShipping shipping_events = new CShipping();
 					shipping_events.manage_Events(main_window);
 					
-					ShippingjList lista_menos = new ShippingjList();
-					double[] value = {1.0, 4.5, 2, 6.7} ;
-					System.out.println(lista_menos.get_menor_valor(value));
-					
+					CShipping_Prox shipping_prox_events = new CShipping_Prox();
+					shipping_prox_events.manage_Events(main_window);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}

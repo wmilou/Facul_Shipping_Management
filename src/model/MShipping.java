@@ -14,6 +14,14 @@ public class MShipping {
 		return result;
 	}
 
+	public List<String> get_shipping_id_distance() throws ClassNotFoundException, SQLException{
+		List<String> result = new ArrayList<String>();
+
+		connection con = new connection();
+	    result = con.exec_Query("SELECT Id, Distance FROM Shipping;");
+		return result;
+	}
+
 	public List<String> get_shipping_by_id(String Id) throws ClassNotFoundException, SQLException{
 		List<String> result = new ArrayList<String>();
 

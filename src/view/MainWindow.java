@@ -18,6 +18,7 @@ public class MainWindow extends JFrame{
 	public VCustomer view_customer;
 	public VStatus_Type view_status_type;
 	public VShipping view_shipping;
+	public VShipping_Prox view_shipping_prox;
 
 
 	private JPanel contentPane;
@@ -40,6 +41,8 @@ public class MainWindow extends JFrame{
 		view_shipping = new VShipping();
 		tabbedPane.addTab("Manager Shipping", view_shipping);
 		
+		view_shipping_prox = new VShipping_Prox();
+		tabbedPane.addTab("Next Shipping", view_shipping_prox);
 		
 		contentPane.add(tabbedPane, BorderLayout.CENTER);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -56,4 +59,10 @@ public class MainWindow extends JFrame{
 	public VShipping get_view_shipping () {
 		return this.view_shipping;
 	}
+
+	public VShipping_Prox get_view_shipping_prox () {
+		return this.view_shipping_prox;
+	}
+
 }
+

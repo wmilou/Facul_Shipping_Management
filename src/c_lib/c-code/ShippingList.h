@@ -2,14 +2,14 @@
 #include <jni.h>
 /* Header for class ShippingList */
 
-#ifndef _Included_ShippingjList
-#define _Included_ShippingjList
+#ifndef _Included_c_lib_ShippingjList
+#define _Included_c_lib_ShippingjList
 /*
- * Class:     ShippingjList
+ * Class:     c_lib_ShippingjList
  * Method:    ShippingList
  * Signature: (Ljava/lang/String;)V
  */
-    JNIEXPORT jdouble JNICALL Java_ShippingjList_ShippingList
+    JNIEXPORT jdouble JNICALL Java_c_1lib_ShippingjList_ShippingList
   (JNIEnv *, jclass, jintArray);
 
 #endif

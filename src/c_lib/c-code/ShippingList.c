@@ -3,7 +3,7 @@
 #include "ShippingList.h"
 #include "TDALista.h"
 
-JNIEXPORT jdouble JNICALL Java_ShippingjList_ShippingList
+JNIEXPORT jdouble JNICALL Java_c_1lib_ShippingjList_ShippingList
     (JNIEnv *env, jclass this, jdoubleArray inJNIArray){
     // To get Values from Java
     jdouble *inCArray = (*env)->GetDoubleArrayElements(env, inJNIArray, NULL);
