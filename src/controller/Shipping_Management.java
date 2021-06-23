@@ -1,5 +1,6 @@
 package controller;
 import view.MainWindow;
+import c_lib.ShippingjList;
 
 import java.awt.EventQueue;
 
@@ -21,6 +22,11 @@ public class Shipping_Management {
 
 					CShipping shipping_events = new CShipping();
 					shipping_events.manage_Events(main_window);
+					
+					ShippingjList lista_menos = new ShippingjList();
+					double[] value = {1.0, 4.5, 2, 6.7} ;
+					System.out.println(lista_menos.get_menor_valor(value));
+					
 				} catch (Exception e) {
 					e.printStackTrace();
 				}

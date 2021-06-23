@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Shell Script to Compile All C-LIB code
+echo "Compiling Program ..."
+gcc -fPIC -I"/usr/lib/jvm/default-runtime/include" -I"/usr/lib/jvm/default-runtime/include/linux" -shared -o libShippingList.so c-code/ShippingList.c
+mv libShippingList.so clib
+javac ShippingjList.java
+java -Djava.library.path=clib ShippingjList
+echo "Terminou Execução"
