@@ -1,5 +1,10 @@
 package view;
 
+/* Nomes Alunos
+ *  Vinicius Oliveira     RA: 72507
+ *  Wedlsey Milouchine    RA: 73183
+ */
+
 import java.awt.BorderLayout;
 import java.sql.SQLException;
 import javax.swing.JFrame;
@@ -40,7 +45,6 @@ public class MainWindow extends JFrame{
 		tabbedPane.addTab("Manager Status", view_status_type);
 		view_shipping = new VShipping();
 		tabbedPane.addTab("Manager Shipping", view_shipping);
-		
 		view_shipping_prox = new VShipping_Prox();
 		tabbedPane.addTab("Next Shipping", view_shipping_prox);
 		

@@ -3,6 +3,11 @@
 #include "ShippingList.h"
 #include "TDALista.h"
 
+/* Nomes Alunos
+ *  Vinicius Oliveira     RA: 72507
+ *  Wedlsey Milouchine    RA: 73183
+ */
+
 JNIEXPORT jdouble JNICALL Java_c_1lib_ShippingjList_ShippingList
     (JNIEnv *env, jclass this, jdoubleArray inJNIArray){
     // To get Values from Java

@@ -1,5 +1,13 @@
 package model;
 
+/* Nomes Alunos
+ *  Vinicius Oliveira          RA: 72507
+ *  Wedlsey Milouchine         RA: 73183
+ *  Carolina Rodrigues         RA: 68097
+ *  Eduardo Oliveira Batista   RA: 73026
+ *  Genildo Santos             RA: 77846
+ */
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;

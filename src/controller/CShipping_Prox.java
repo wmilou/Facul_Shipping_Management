@@ -12,7 +12,13 @@ import java.util.List;
 import java.awt.event.ActionEvent;
 
 public class CShipping_Prox {
-	
+	/* Nomes Alunos
+	 *  Vinicius Oliveira          RA: 72507
+	 *  Wedlsey Milouchine         RA: 73183
+	 *  Carolina Rodrigues         RA: 68097
+	 *  Eduardo Oliveira Batista   RA: 73026
+	 *  Genildo Santos             RA: 77846
+	 */	
 	public void manage_Events(MainWindow main_window) {
 	MShipping model_shipping = new MShipping();
 	VShipping_Prox view_shipping = main_window.get_view_shipping_prox();

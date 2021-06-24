@@ -1,6 +1,12 @@
 #ifndef TDALISTA_H_INCLUDED
 #define TDALISTA_H_INCLUDED
 
+/* Nomes Alunos
+ *  Vinicius Oliveira     RA: 72507
+ *  Wedlsey Milouchine    RA: 73183
+ */
+
+
 // Estruturas de Dados para Lista
 // TipoLista e Nó
 struct no {

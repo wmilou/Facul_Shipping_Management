@@ -3,6 +3,14 @@
 #include "ShippingList.h"
 #include "TDALista.h"
 
+/* Nomes Alunos
+ *  Vinicius Oliveira          RA: 72507
+ *  Wedlsey Milouchine         RA: 73183
+ *  Carolina Rodrigues         RA: 68097
+ *  Eduardo Oliveira Batista   RA: 73026
+ *  Genildo Santos             RA: 77846
+ */
+
 JNIEXPORT jdouble JNICALL Java_c_1lib_ShippingjList_ShippingList
     (JNIEnv *env, jclass this, jdoubleArray inJNIArray){
     // To get Values from Java
@@ -12,10 +20,8 @@ JNIEXPORT jdouble JNICALL Java_c_1lib_ShippingjList_ShippingList
 
     //Trabalhando com uma Lista de Struct
     struct TipoLista lista;
-    struct TipoLista lista_nova;
 
     Inicializa(&lista);
-    Inicializa(&lista_nova);
 
     // insere todos os valores doubles em uma lista
     int i;
@@ -28,5 +34,4 @@ JNIEXPORT jdouble JNICALL Java_c_1lib_ShippingjList_ShippingList
     jdouble menordistancia = BuscaMenorDistancia(&lista);
 
     return menordistancia;
-
 }

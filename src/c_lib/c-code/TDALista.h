@@ -1,8 +1,14 @@
 #ifndef TDALISTA_H_INCLUDED
 #define TDALISTA_H_INCLUDED
 
-// Estruturas de Dados para Lista
-// TipoLista e Nó
+/* Nomes Alunos
+ *  Vinicius Oliveira          RA: 72507
+ *  Wedlsey Milouchine         RA: 73183
+ *  Carolina Rodrigues         RA: 68097
+ *  Eduardo Oliveira Batista   RA: 73026
+ *  Genildo Santos             RA: 77846
+ */
+
 struct no {
 	struct no *ant;
 	double id, distance; 
@@ -22,8 +28,6 @@ void Inicializa (struct TipoLista *lista) {
 // Verifica se a lista está vazia
 int Vazia (struct TipoLista *lista) {
 	return (lista->inicio==NULL && lista->fim==NULL);
-	// se estiver vazia, retorna 1,
-	// caso contrário retorna 0.
 }
 
 // Lista
